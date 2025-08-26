@@ -1,8 +1,6 @@
 import pandas as pd
 import numpy as np
 
-FILEPATH = '~/Programs/Python/Equity-Bond-Balance/data.csv'
-
 def get_annualized_total_return_from_portfolio(portfolio):
      cumulative_return = portfolio[-1]/portfolio[0] - 1
 
