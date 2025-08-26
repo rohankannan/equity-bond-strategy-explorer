@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import utilities
 
-FILEPATH = '~/Programs/Python/Equity-Bond-Balance/data.csv'
+FILEPATH = '[enter filepath here]'
 INITIAL_FUNDS = 10000
 SIMULATION_GRANULARITY = 1000 # number of strategies to simulate, minimum is 2
 LEVERED = True # set to true to use leverage to equalize volatility of all strategies
