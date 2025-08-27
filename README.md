@@ -9,11 +9,11 @@ Asness then continues his analysis by looking at when you cannot or will not lev
 ## Findings
 Using a dataset of corporate bonds to populate monthly rate changes for bonds, and a dataset of the S&P 500 to populate monthly rate changes for equity, I was able to come up with a sample from 2016-2024. In Asness's analysis, he uses the same markets to make his analysis, but over a much longer time frame. The short period is one of the major limitations of my sample. That being said, the program still yields meaningful conclusions. Over 1000 simulations, almost all strategies yield a net positive, and the majority earn between 12%-13% in annualized return. 
 
-![Figure 1](https://raw.githubusercontent.com/rohankannan/equity-bond-strategy-explorer/refs/heads/main/Figure_1.png) Figure 1 depicts the value of the funds of all 1000 strategies
+![Figure 1](https://raw.githubusercontent.com/rohankannan/equity-bond-strategy-explorer/refs/heads/main/Figure_1.png) This chart depicts the value of the funds of all 1000 strategies
 
 The best strategy had a ratio of 13.9% equities to 86.1% bonds, which is very different to Asness's suggested 60:40 ratio. This can potentially be explained by the fact that a significant portion of the sample period was during the coronavirus pandemic, which negatively affected equities more than corporate bonds. However, certain portfolios that depended too much on corporate bonds were not able to meet the yield required to pay back the interest rate on the leverage, which resulted in them underperforming. The strategy also leveraged at a rate of 679% in order to match the volatility of the 100% equity portfolio at 12.33%. 
 
-![Figure 2](https://raw.githubusercontent.com/rohankannan/equity-bond-balancing/refs/heads/main/Figure_2.png) Figure 2 depicts the sample distribution of annualized return across all strategies
+![Figure 2](https://raw.githubusercontent.com/rohankannan/equity-bond-balancing/refs/heads/main/Figure_2.png) This chart depicts the sample distribution of annualized return across all strategies
 
 
 ## Using the Tool
@@ -26,4 +26,4 @@ The tool I built relies on 4 major user-specified variables and additionally inc
 To run the tool, install the latest version of python and install the pandas, numpy, and matplotlib libraries. The program will then generate a command line summary of the best portfolio and provide two charts similar to those seen above. To change the dataset, follow the same formatting of the csv provided as a sample.
 
 ## Limitations
-The most significant drawdown of this tool is that the dataset is extremely limited. This is because I only had access to free datasets and could only make
+The most significant drawdown of this tool is that the dataset is extremely limited. This is because I only had access to free datasets and could only compile accurate data from 2016 to 2024, which reduces confidence in any conclusions regarding long run strategy. It goes without saying that this is a personal project to further explore two interesting finance papers and should not be used to inform any real-world financial decisions.
