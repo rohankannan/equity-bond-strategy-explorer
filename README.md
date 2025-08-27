@@ -26,4 +26,4 @@ The tool I built relies on 4 major user-specified variables and additionally inc
 To run the tool, install the latest version of python and install the pandas, numpy, and matplotlib libraries. The program will then generate a command line summary of the best portfolio and provide two charts similar to those seen above. To change the dataset, follow the same formatting of the csv provided as a sample.
 
 ## Limitations
-
+The most significant drawdown of this tool is that the dataset is extremely limited. This is because I only had access to free datasets and could only make
