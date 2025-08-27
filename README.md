@@ -23,7 +23,7 @@ The tool I built relies on 4 major user-specified variables and additionally inc
 1. FILEPATH - specify the filepath to a csv with relevant data.
 2. SIMULATION_GRANULARITY - adjust the number of strategies to be tested.
 3. LEVERED - boolean specifying whether or not to lever funds in simulated strategies. Leverage amount will be selected to match the volatility of the most volatile strategy.
-4. LEVERAGE_INTEREST_RATE - rate of interest on loans. By default, this is set to the annualized benchmark interest rate over the course of the sample dataset.
+4. LEVERAGE_INTEREST_RATE - rate of interest on loans. By default, this is set to the annualized benchmark interest rate of 1.97% adjusted to compound monthly.
 
 To run the tool, install the latest version of python and install the pandas, numpy, and matplotlib libraries. The program will then generate a command line summary of the best portfolio and provide two charts similar to those seen above. To change the dataset, follow the same formatting of the csv provided as a sample.
 
